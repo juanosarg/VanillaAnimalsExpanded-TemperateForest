@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Advanced Biomes</li>
+			<li>Advanced Biomes (Continued)</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
@@ -14,54 +14,45 @@
 
 
 			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName="AEXP_Gorilla"]/race/wildBiomes</xpath>
+				<xpath>/Defs/ThingDef[defName="AEXP_RedPanda"]/race/wildBiomes</xpath>
 				<value>
-					<PoisonForest>0.01</PoisonForest>
-					<Wetland>0.1</Wetland>					
+					<PoisonForest>0.6</PoisonForest>
+					<Wetland>0.05</Wetland>					
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName="AEXP_Jaguar"]/race/wildBiomes</xpath>
+				<xpath>/Defs/ThingDef[defName="AEXP_Badger"]/race/wildBiomes</xpath>
 				<value>					
-					<PoisonForest>0.05</PoisonForest>
+					<PoisonForest>0.2</PoisonForest>
+					<Wetland>0.05</Wetland>	
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_WildGoose"]/race/wildBiomes</xpath>
+				<value>					
+					<PoisonForest>0.5</PoisonForest>
 					<Wetland>0.1</Wetland>	
 				</value>
 			</li>
 
-
-
 			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName="AEXP_Lemur"]/race/wildBiomes</xpath>
-				<value>
-
-					<PoisonForest>0.2</PoisonForest>
-					<Wetland>0.1</Wetland>	
-
-				</value>
-			</li>	
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName="AEXP_Mandrill"]/race/wildBiomes</xpath>
+				<xpath>/Defs/ThingDef[defName="AEXP_Beaver"]/race/wildBiomes</xpath>
 				<value>					
-					<PoisonForest>0.07</PoisonForest>
-					<Wetland>0.1</Wetland>	
-				</value>
-			</li>		
-			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName="AEXP_Tapir"]/race/wildBiomes</xpath>
-				<value>
 					<PoisonForest>0.2</PoisonForest>
-					<Wetland>0.15</Wetland>	
+					<Wetland>0.04</Wetland>	
 				</value>
-			</li>			
+			</li>
 			<li Class="PatchOperationAdd"> 
-				<xpath>/Defs/ThingDef[defName="AEXP_Tiger"]/race/wildBiomes</xpath>
-				<value>
-					<PoisonForest>0.07</PoisonForest>
-					<Wetland>0.07</Wetland>	
+				<xpath>/Defs/ThingDef[defName="AEXP_Hedgehog"]/race/wildBiomes</xpath>
+				<value>					
+					<PoisonForest>1</PoisonForest>
+					<Wetland>0.2</Wetland>	
 				</value>
-			</li>	
+			</li>
 
+			
 
 			
 
