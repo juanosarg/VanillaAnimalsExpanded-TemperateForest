@@ -521,6 +521,22 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+			<li Class="AnimalBehaviours.CompProperties_BuildPeriodically">
+				<defOfBuilding>AEXP_BeaverDam</defOfBuilding>
+				<ticksToBuild>2000</ticksToBuild>
+				<maxBuildingsPerMap>10</maxBuildingsPerMap>
+				<acceptedTerrains>
+					<li>MarshyTerrain</li>
+					<li>WaterMovingChestDeep</li>
+					<li>WaterShallow</li>
+					<li>WaterOceanShallow</li>
+					<li>WaterMovingShallow</li>
+					<li>Marsh</li>
+					<li>GU_RedWaterShallow</li>
+				</acceptedTerrains>
+			</li>
+		</comps>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<herdAnimal>true</herdAnimal>
