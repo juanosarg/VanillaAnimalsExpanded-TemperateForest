@@ -4,7 +4,10 @@
 	<author>Oskar Potocki, Sarg Bjornson</author>
 	<supportedVersions><li>1.2</li></supportedVersions>
 	<packageId>VanillaExpanded.VAETF</packageId>
-	<description>Oskar poopoo.</description>
+	<description>After all the other animal mods have been finished, it is time to introduce the one final animal mod to Vanilla Expanded mod series. Vanilla Animals Expanded - Temperate Forest mod adds a small number of animals to a very popular for beginners temperate forest biome. Whilst the biome is already very diverse animal wise, I feel like it was missing something that makes it unique. All of the vanilla animals that spawn in Temperate biome can also spawn almost everywhere else, so we, Vanilla Expanded Co. decided to add something truly unique - red pandas, wild geese, badgers, beavers that build wooden dams on the rivers, and of course - hedgehogs!
+
+Vanilla Animals Expanded is a modular mod. It means it will come out in several modules allowing people to subscribe to only the animals they want in the game. This part is the Temperate Forest biome expansion. It adds 5 new animals that will spawn in the Temperate forest, but some of them also spawn in other biomes. They have vanilla artwork, sounds and balancing.
+</description>
 	<modDependencies>
         <li>
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
